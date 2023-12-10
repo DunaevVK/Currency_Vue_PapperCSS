@@ -1,0 +1,33 @@
+.split-nav,
+.papper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.papper {
+    margin-top: 60px;
+}
+
+.curPhuketBath {
+    display: inline-block;
+    /* width: 180px; */
+    margin-left: 60px;
+}
+
+.card-subtitle {
+    display: flex;
+    margin-right: 50px;
+}
+
+select {
+    margin-left: 50px;
+}
+
+.col-6 {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}

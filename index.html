@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency_Vue</title>
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script>
+    <script src="./scripts/api.js" defer></script>
+    <script src="./scripts/rub.js" defer></script>
+    <script src="./scripts/curPhuket.js" defer></script>
+    <script src="./scripts/curDollar.js" defer></script>
+    <script src="./scripts/rubM.js" defer></script>
+    <script src="./scripts/total.js" defer></script>
+    <script src="./scripts/topbar.js"></script>
+    <script src="./scripts/app.js" defer></script>
+
+
+</head>
+
+<body>
+    <div class="app">
+        <topbar></topbar>
+        <div class="papper">
+            <current-rubles></current-rubles>
+            <current-currency-dollar></current-currency-dollar>
+            <current-currency-baht></current-currency-baht>
+            <current-currency-rub></current-currency-rub>
+            <total-button></total-button>
+        </div>
+    </div>
+
+
+
+    <!-- <script src="/scripts/curPhuket.js"></script> -->
+</body>
+
+</html>
